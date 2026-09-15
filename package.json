@@ -6,6 +6,10 @@
   "private": true,
   "license": "MIT",
   "main": "src/plugin.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drdeeks/agent-handoff.git"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node src/plugin.js"
