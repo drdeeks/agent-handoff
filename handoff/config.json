@@ -1,0 +1,5 @@
+{
+  "source_state": "initial session",
+  "inventory_dir": "/tmp/handoff_inventory",
+  "recovery_enabled": true
+}

@@ -1,0 +1,22 @@
+/*
+ * TypeScript Configuration — Minimal, self-contained handoff plugin
+ * Targets ES2020, Node16 module resolution, no external libs beyond zod types
+ * Zero hardcoded paths. Finds itself via self-resolving config (FOREVER-SYSTEM.md §2).
+ */
+
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "Node16",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*", "package.json"],
+  "exclude": ["node_modules", "dist"]
+}
