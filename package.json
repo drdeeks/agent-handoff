@@ -1,5 +1,5 @@
 {
-  "name": "handoff",
+  "name": "@the-federation/agent-handoff",
   "version": "1.0.0",
   "description": "Standalone agent handoff plugin — pre-compaction state preservation. Fully self-contained, zero external runtime dependencies. System-agnostic, harness-agnostic, model-agnostic.",
   "type": "commonjs",
