@@ -1,0 +1,9 @@
+# .npmignore
+.git/
+.github/
+docs/
+tests/
+.gitignore
+.npmignore
+AGENTS.md
+README.md
